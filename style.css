@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+}
+h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*First Navbar Css Code starts here*/
+.navbar-section{
+    width: 100%;
+    background-color: #00ffff;
+    margin-top: 50px;
+}
+.navbar-section .navbar-brand{
+    color: #000;
+    font-size: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-section .menu{
+    margin-left: 40px;
+}
+.navbar-section .menu .nav-item{
+    margin-right: 13px;
+}
+.navbar-section .menu .nav-item:last-child{
+    margin-right: 0;
+}
+.navbar-section .menu .nav-item .nav-link{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-section .search-input{
+    margin-right: 20px;
+}
+.navbar-section .search-input input{
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 0;
+    
+}
+.navbar-section .search-input .send{
+    display: inline-block;
+    width: 100px;
+    background-color: #009fe3;
+    padding: 8px 12px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+}
+/*First Navbar Css Code ends here*/
+
+/*Second Navbar Css Code startss here*/
+.navbar-section-1{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #d6f646;
+}
+.navbar-section-1 .navbar-brand{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.navbar-section-1 .menu1 .nav-item{
+    margin-right: 16px;
+}
+
+.navbar-section-1 .menu1 .nav-item .nav-link{
+    color: #000;
+    font-size: 18px;
+    font-weight:500;
+}
+
+/*Second Navbar Css Code ends here*/
+
+
+/*Third Navbar Css Code ends here*/
+
+.navbar-section-2{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #50ea7d;
+}
+.navbar-section-2 .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+.navbar-section-2 .menu2 .nav-item .nav-link{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+}
+.navbar-section-2 .menu2 .nav-item .nav-link:hover{
+    background-color: #0a712e;
+    box-shadow: 0px 4px 4px #3aab5b;
+    border-radius: 15px;
+    color: #fff;
+}
+.navbar-section-2 .menu2 .nav-item .active{
+    background-color: #0a712e;
+    box-shadow: 0px 4px 4px #3aab5b;
+    border-radius: 15px;
+    color: #fff;
+}
+/*Third Navbar Css Code ends here*/
+
+
+/*Different Card layout css style starts here*/
+.h2{
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.card-section{
+    width: 100%;
+    margin-top: 50px;
+}
+/*Card1 css style starts here*/
+.card-section .container .card1{
+    width: 315px;
+    background-color: #46deba;
+    padding-top: 30px;
+    
+}
+.card-section .container .card1 h4{
+    width: 200px;
+}
+.card-section .container .card1 p{
+    font-variant: small-caps;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.card-section .container .card1 .btn1{
+    background-color: #009fe3;
+    padding: 12px;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/*Card2 css style starts here*/
+.card-section .container .card2{
+    width: 315px;
+    background-color: #46deba;
+    padding-top: 30px;
+    
+}
+.card-section .container .card2 h4{
+    width: 200px;
+}
+.card-section .container .card2 p{
+    font-variant: small-caps;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.card-section .container .card2 .btn1{
+    background-color: #009fe3;
+    padding: 12px;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* card3 css style starts here*/
+.card-section .container .card3{
+    width: 315px;
+    background-color: #46deba;
+    padding-top: 30px;
+    
+}
+.card-section .container .card3 h4{
+    width: 200px;
+}
+.card-section .container .card3 p{
+    font-variant: small-caps;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.card-section .container .card3 .btn1{
+    background-color: #009fe3;
+    padding: 12px;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/*card layout 2 css code starts here*/
+
+.card-section-1{
+    width: 100%;
+    margin-top: 50px;
+}
+.card-section-1 .card4{
+    width: 315px;
+    border: 2px solid #000;
+}
+.card-section-1 .card4 p{
+    text-align: justify;
+    
+}
+.card-section-1 .card4 .see-profile-btn{
+    background-color: #ffed00;
+    padding: 12px 15px;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 130px;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.card-section-1 .card5{
+    width: 315px;
+    border: 2px solid #000;
+}
+.card-section-1 .card5 p{
+    text-align: justify;
+    
+}
+.card-section-1 .card5 .see-profile-btn{
+    background-color: #ffed00;
+    padding: 12px 15px;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 130px;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+.card-section-1 .card6{
+    width: 315px;
+    border: 2px solid #000;
+}
+.card-section-1 .card6 p{
+    text-align: justify;
+    
+}
+.card-section-1 .card6 .see-profile-btn{
+    background-color: #ffed00;
+    padding: 12px 15px;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 130px;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/*card layout 2 css code starts here*/
+
+/*Different Card layout css style ends here*/
+
+
+/*Footer Section CSS style starts here*/
+
+.footer-section{
+    width: 100%;
+    background-color: #2a2d2c;
+    padding: 20px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+.footer-section .container .footer-left{
+    padding-top: 30px;
+}
+.footer-section .container .footer-left .footer-logo{
+    font-size: 40px;
+    color: #fff;
+    font-family: Azonix;
+    display: block;
+    text-decoration: none;
+}
+.footer-section .container .footer-left .social-media .social-icon-facebook, .social-icon-twitter, .social-icon-instagram, .social-icon-youtube{
+    margin-right: 7px;
+   
+}
+.footer-section .container .footer-left-center{
+    padding-top: 50px;
+}
+.footer-section .footer-left-center .support{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 40px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.footer-section .footer-left-center .footer-menu li{
+    list-style-type: none;
+    margin-bottom: 9px;
+}
+.footer-section .footer-left-center .footer-menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-section .footer-center{
+    padding-top: 50px;
+}
+.footer-section .footer-center .contact{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-section .footer-center .address{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-section .footer-right{
+    padding-top: 50px;
+}
+.footer-section .footer-right span img{
+    display: inline-block;
+}
+.footer-section .footer-right .subscribe{
+    margin-left: 30px;
+}
+.footer-section .footer-right .stayup{
+    display: inline;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.footer-section .footer-right .subscribe{
+    margin-top: 50px;
+    
+}
+.footer-section .footer-right .subscribe input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    display: block;
+    margin-bottom: 20px;
+    width: 250px;
+    color: #fff;
+}
+.footer-section .footer-right .subscribe .signup{
+    background-color: #da1f1f;
+    padding: 8px 20px;
+    color: #fff;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+.footer-section .footer-right .subscribe input::placeholder{
+    color: #fff;
+    
+}
+
+
+/*Footer Section CSS style ends here*/
+
+/*Footer section 2 css style starts here*/
+
+.footer-section-2{
+    background-color: #bd4d38;
+    padding: 12px;
+    margin-top: 50px;
+    
+}
+.footer-section-2 .container .footer-left-1{
+    padding-top: 30px;
+}
+.footer-section-2 .container .footer-left-1 .footer-menu-1 li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.footer-section-2 .container .footer-left-1 .footer-menu-1 li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-section-2 .container .footer-left-2 .footer-menu-2{
+    padding-top: 32px;
+}
+
+.footer-section-2 .container .footer-left-2 .footer-menu-2 li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.footer-section-2 .container .footer-left-2 .footer-menu-2 li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-section-2 .container .footer-left-3{
+    padding-top: 32px;
+}
+
+.footer-section-2 .container .footer-left-3 li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.footer-section-2 .container .footer-left-3 li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-section-2 .container .footer-left-4{
+    padding-top: 32px;
+}
+.footer-section-2 .container .footer-left-4 li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.footer-section-2 .container .footer-left-4 li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-section-2 .container .footer-right-1{
+    padding: 31px;
+}
+.footer-section-2 .container .footer-right-1 p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.footer-section-2 .container .footer-right-1 .mail{
+    padding: 8px 15px;
+    background-color: #b7b7b7;
+    border: 0;
+    outline: 0;
+}
+.footer-section-2 .container .footer-right-1 .subscribe-btn{
+    background-color: #fff200;
+    padding: 8px 12px;
+    border: 0;outline: 0;
+    cursor: pointer;
+    color: #000;
+}
+
+.connect .social-media{
+    margin-top: 40px;
+}
+.connect .social-media p{
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.connect .social-media span{
+    margin-right: 8px;
+}
+.connect .social-media span:last-child{
+    margin-right: 0;
+}
+.footer-section-2 .copyright-section{
+    margin-top: 50px;
+}
+.footer-section-2 .copyright-section .copyright{
+    font-size: 18px;
+    color: #fff;
+}
+/*Footer section 2 css style ends here*/

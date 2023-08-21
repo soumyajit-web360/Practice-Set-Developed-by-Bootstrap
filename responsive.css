@@ -1,0 +1,348 @@
+/*Responsive design for extra small device*/
+@media only screen and (max-width:575px){
+/*    1st navbar responsive design starts here*/
+    .navbar-section .menu{
+    margin-left: 0;
+    }
+    .navbar-section-1 .navbar-brand{
+        margin-left: 0;
+    }
+/*    1st navbar responsive design ends here*/
+    
+    /*    3rd navbar responsive design starts here*/
+   
+    .navbar-section-2 .menu2 .nav-item .nav-link:hover{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    
+    .navbar-section-2 .menu2 .nav-item .active{
+        background-color: transparent;
+        box-shadow: none;
+        color: #000;
+    }
+    /*    3rd navbar responsive design ends here*/
+    
+    
+/*    Card1, Card2, Card3 responsive design starts here*/
+    
+    .card-section .container .card1{
+        margin-bottom: 30px;
+    }
+    
+    .card-section .container .card1 .btn1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-section .container .card2{
+        margin-bottom: 30px;
+    }
+    .card-section .container .card2 .btn1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .card-section .container .card3 .btn1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+ /*    Card1, Card2, Card3 responsive design ends here*/  
+    
+    
+/*    Card4, Card5, Card6 responsive design starts here*/
+    
+    .card-section-1 .container .card4{
+        margin-bottom: 30px;
+    }
+    
+    .card-section-1 .card4 .see-profile-btn{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-section-1 .container .card5{
+        margin-bottom: 30px;
+    }
+    
+    .card-section-1 .card5 .see-profile-btn{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-section-1 .card6 .see-profile-btn{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+ /*    Card4, Card5, Card6 responsive design ends here*/ 
+    
+/*Footer responsive design starts here*/
+    .footer-section{
+        width: 100%;
+    }
+    .footer-section .container .footer-left .footer-logo{
+        margin-left: 40px;
+    }  
+    
+    .footer-section .container .footer-left .social-media{
+        margin-left: 40px;
+    }
+    
+    .footer-section .container .footer-center .contact, .address{
+        margin-left: 40px;
+    }
+    
+    .footer-section .container .footer-right span{
+        margin-left: 40px;
+    }
+    
+    .footer-section .container .footer-right .subscribe{
+        margin-left: 40px;
+    }
+    .footer-section .container .footer-right .subscribe .signup{
+        display: block;
+        width: 250px;
+    }
+    
+/*Footer responsive design ends here*/
+    
+/*Footer section 2 css style starts here*/
+    .footer-section-2 .container .footer-right-1 p{
+        margin-left: 30px;
+    }
+    .footer-section-2 .container .footer-right-1 .mail{
+        margin-left: 30px;
+    }
+    .connect .social-media{
+        margin-left: 50px;
+    }
+    
+    
+    /*Footer section 2 css style ends here*/
+    
+}
+
+
+/*Responsive design for extra small device*/
+
+
+/*Responsive design for  small device*/
+@media only screen and (min-width:576px) and (max-width:767px){
+    /*    1st navbar responsive design starts here*/
+    .navbar-section .menu{
+    margin-left: 0;
+    }
+    .navbar-section-1 .navbar-brand{
+        margin-left: 0;
+    }
+    /*    1st navbar responsive design ends here*/
+    
+    
+    /*    3rd navbar responsive design starts here*/
+    .navbar-section-2 .menu2 .nav-item .nav-link:hover{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    
+    .navbar-section-2 .menu2 .nav-item .active{
+        background-color: transparent;
+        box-shadow: none;
+        color: #000;
+    }
+    /*    3rd navbar responsive design ends here*/
+    
+    /*    Card1, Card2, Card3 responsive design starts here*/
+    
+    .card-section .container .card1{
+        margin-bottom: 30px;
+    }
+    
+    .card-section .container .card1 .btn1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-section .container .card2{
+        margin-bottom: 30px;
+    }
+    
+    .card-section .container .card2 .btn1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-section .container .card3 .btn1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+ /*    Card1, Card2, Card3 responsive design ends here*/
+    
+    
+/*    Card4, Card5, Card6 responsive design starts here*/
+    
+    .card-section-1 .container .card4{
+        margin-bottom: 30px;
+    }
+    
+    .card-section-1 .card4 .see-profile-btn{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-section-1 .container .card5{
+        margin-bottom: 30px;
+    }
+    
+    .card-section-1 .card5 .see-profile-btn{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-section-1 .card6 .see-profile-btn{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+ /*    Card4, Card5, Card6 responsive design ends here*/
+    
+    /*Footer section 2 css style starts here*/
+    .footer-section-2 .container .footer-right-1 p{
+        margin-left: 30px;
+    }
+    .footer-section-2 .container .footer-right-1 .mail{
+        margin-left: 30px;
+    }
+    .connect .social-media{
+        margin-left: 50px;
+    }
+    
+    
+    /*Footer section 2 css style ends here*/
+}
+
+
+/*Responsive design for  small device*/
+
+
+/*Responsive design for  medium device*/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+/*    1st Navbar responsive starts here*/
+    .navbar-section .menu{
+    margin-left: 20px;
+}
+.navbar-section .menu .nav-item{
+    margin-right: 0;
+}
+.navbar-section .menu .nav-item .nav-link{
+    font-size: 16px;
+}
+    .navbar-section .search-input{
+        margin-left: 10px;
+    }
+    .navbar-section .search-input input{
+        display: inline-block;
+        width: 180px;
+        
+    }
+    /*  1st  Navbar responsive ends here*/
+    
+    /*    Card1, Card2, Card3 responsive design starts here*/
+    
+    .card-section .container .card1{
+        margin-bottom: 30px;
+    }
+    
+    .card-section .container .card2{
+        margin-bottom: 30px;
+    }
+    
+ /*    Card1, Card2, Card3 responsive design starts here*/
+    
+
+/*    Card4, Card5, Card6 responsive design starts here*/
+    
+    .card-section-1 .container .card4{
+        margin-bottom: 30px;
+    }
+    
+    .card-section-1 .container .card5{
+        margin-bottom: 30px;
+    }
+    
+/*    Card4, Card5, Card6 responsive design ends here*/
+    
+    /*Footer section 2 css style starts here*/
+    .footer-section-2 .container .footer-right-1 p{
+        margin-left: 30px;
+    }
+    .footer-section-2 .container .footer-right-1 .mail{
+        margin-left: 30px;
+    }
+    .connect .social-media{
+        margin-left: 50px;
+    }
+    
+    
+    /*Footer section 2 css style ends here*/
+    
+    
+}
+
+
+/*Responsive design for  medium device*/
+
+
+/*Responsive design for  large device*/
+@media only screen and (min-width:992px) and (max-width:1199px){
+    /*    Card1, Card2, Card3 responsive design starts here*/
+    
+    .card-section .container .card1{
+        margin-right: 30px;
+    }
+    
+    .card-section .container .card2{
+        margin-right: 30px;
+    }
+    
+ /*    Card1, Card2, Card3 responsive design starts here*/
+    
+    
+/*    Card4, Card5, Card6 responsive design starts here*/
+    
+    .card-section-1 .container .card4{
+        margin-right: 30px;
+    }
+    
+    .card-section-1 .container .card5{
+        margin-right: 30px;
+    }
+    
+    
+    
+    
+ /*    Card4, Card5, Card6 responsive design ends here*/
+}
+
+
+
+
+/*Responsive design for  large device*/
+
+
